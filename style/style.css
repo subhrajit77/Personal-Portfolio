@@ -92,16 +92,16 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   margin: 100px 0;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 .firstsection > div {
-  width: 36%;
+  width: 37%;
 }
 
 .leftsection {
   font-size: 3rem;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   max-width: 600px;
   /* margin: 70px 0; */
 }
@@ -115,7 +115,7 @@ nav ul li {
   padding: 15px;
   background: #dfbe00;
   color: rgb(17, 17, 17);
-  border: 2px solid rgb(43, 43, 43);
+  /* border: 2px solid rgb(43, 43, 43); */
   border-radius: 13px;
   font-size: 21px;
   /* margin: 30px 18px; */
@@ -133,16 +133,18 @@ nav ul li {
 
 .rightsection {
   /* background-color: red; */
-  border: 2px solid green;
+  /* border: 2px solid green; */
+  /* margin-left: 50px; */
+  display: flex;
+  justify-content: center;
 }
 
 .rightsection img {
-  width: 50%;
-  height: 50%;
-  webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-      /* border-radius: 25px; */
-  border: 2px solid black;
+  
+  width: 70%;
+  height: 70%;
+  display: flex;
+  /* border: 1px solid black; */
   border-radius: 50%;
   /* margin: 54px; */
 }
