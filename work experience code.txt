@@ -1,0 +1,100 @@
+HTML codes :
+
+<section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical"><img class="image-top" src="/img/dev1.png" alt="">
+                    <div class="vertical-title">HTML Developer (2010-2015)</div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="/img/insta.png" alt="">
+                    <div class="vertical-title">Node.Js Developer (2015-2016)</div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="/img/Linkedin.png" alt="">
+                    <div class="vertical-title">HTML Developer (2016-2018)</div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="/img/uber.png" alt="">
+                    <div class="vertical-title">Backend Developer (2018-2022)</div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="/img/google.png" alt="">
+                    <div class="vertical-title">Software Developer II (2022-till now)</div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        CSS CODES :
+        .secondsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+
+.secondsection h1 {
+  font-size: 1.9rem;
+}
+
+.secondsection .box {
+  background-color: white;
+  width: 74vw;
+  height: 2px;
+  margin: 90px 0;
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.secondsection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0px 100px;
+}
+main hr {
+  border: 0;
+  height: 1px;
+  background: #405687;
+  margin: 44px 84px;
+}
+
+.image-top {
+  width: 56px;
+  position: relative;
+  top: -64px;
+  left: -28px;
+}
+
+.vertical-title {
+  width: 150px;
+  position: relative;
+  top: 65px;
+  left: -40px;
+  font-size: 20px;
+}
+
+.vertical-desc {
+  font-size: 11px;
+  position: relative;
+  top: 80px;
+  color: rgb(179, 177, 177);
+  width: 150px;
+  left: -40px;
+}
