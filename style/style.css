@@ -26,13 +26,16 @@ nav {
 nav ul {
   display: flex;
   justify-content: center;
+  /* border: 2px solid rgb(0, 160, 8); */
+  margin-left: 5.25rem;
   /* border: 2px solid rgb(14, 0, 0); */
   /* background-color: #dfbe0021; */
 }
 
 nav ul li {
   list-style: none;
-  margin: 0 23px;
+  margin: 0 20px;
+  /* border: 1px solid black; */
   font-size: 17px;
   
 }
@@ -71,11 +74,16 @@ nav ul li {
 }
 
 .left {
-  font-size: 1.5rem;
-  background-color: #dfbd00;
-  padding: 10px 10px;
-  box-shadow:0.15cm 8px 18px;
+  /* font-size: 1.5rem; */
+  /* background-color: #dfbd00; */
+  /* padding: 10px 10px; */
+  /* box-shadow:0.15cm 8px 18px; */
   
+}
+.left img{
+  height: 39px;
+  margin-right: 375px;
+  /* width: 150px; */
 }
 
 /* indtro section */
@@ -83,33 +91,44 @@ nav ul li {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 150px 0;
+  margin: 100px 0;
   border: 2px solid green;
 }
 
 .firstsection > div {
-  width: 30%;
+  width: 36%;
 }
 
 .leftsection {
   font-size: 3rem;
   border: 2px solid green;
-  
+  max-width: 600px;
   /* margin: 70px 0; */
 }
 
 .leftsection .buttons {
-  padding: 35px 0;
+  /* margin-top: 100px; */
+  display: block;
 }
 
 .leftsection .btn {
-  padding: 10px;
-  background: #dfbd00;
+  padding: 15px;
+  background: #dfbe00;
   color: rgb(17, 17, 17);
   border: 2px solid rgb(43, 43, 43);
   border-radius: 13px;
   font-size: 21px;
   /* margin: 30px 18px; */
+}
+#socials{
+  display: inline-block;
+  padding: 0px 20px;
+  background-color: rgb(243, 243, 243);
+  border: 0px solid black;
+ 
+}
+#socials img{
+  padding: 0px 8px;
 }
 
 .rightsection {
@@ -118,12 +137,19 @@ nav ul li {
 }
 
 .rightsection img {
-  width: 80%;
+  width: 50%;
+  height: 50%;
+  webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+      /* border-radius: 25px; */
+  border: 2px solid black;
+  border-radius: 50%;
   /* margin: 54px; */
 }
 
 .purple {
   color: rgb(243, 89, 0);
+  font-weight: 800;
 }
 
 .text-gray {
@@ -132,6 +158,7 @@ nav ul li {
 
 #element {
   color: rgb(243, 89, 0);
+  font-weight: 500;
 }
 
 .secondsection {
