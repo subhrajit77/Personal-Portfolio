@@ -674,6 +674,8 @@ header nav {
 
     }
     #socials a img{
+      margin-top: 10px ;
+      padding: 0px 20px;
       height: auto;
       width: 40px;
     }
