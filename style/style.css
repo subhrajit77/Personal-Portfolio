@@ -6,6 +6,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -174,7 +175,7 @@ nav ul li {
 /* ABOUT ME SECTION CSS*/
 .about-section {
   text-align: center;
-  border: 2px solid rgb(0, 0, 0);
+  /* border: 2px solid rgb(0, 0, 0); */
   padding: 10px 20px;
   /*  */
 }
@@ -236,6 +237,9 @@ nav ul li {
 }
 
 /* tech stack */
+.tech-stack {
+  margin-bottom: 50px;
+}
 table {
   background-color: #d4d4d42f;
   margin: 1rem auto;
@@ -270,14 +274,40 @@ th {
 }
 
 @media only screen and (max-width: 768px) {
-  table {
-    overflow-x: auto; /* Allow horizontal scrolling */
+  .tech-stack {
+    border: 1px solid black;
+    margin-bottom: 32px;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-bottom: 0px; */
   }
-
-  th, td {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  table {
+    background-color: #d4d4d42f;
+    margin: 1rem auto;
+    border-collapse:collapse;
+    border-style:dotted;
+    box-shadow: 0 6px 15px rgba(235, 200, 0, 0.877);
+    width: 90%;
+  }
+  
+  
+  
+  th {
+    font-size: 20px;
+    padding: 20px 0px;
+  }
+  
+  td {
+    padding: 1rem;
+    
+  }
+  
+  td img {
+    width: 40px;
+    height: 40px;
+    margin: 5px 15px;
   }
 }
 
