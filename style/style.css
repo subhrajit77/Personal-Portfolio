@@ -315,10 +315,12 @@ nav ul li {
 
 /* tech stack */
 .tech-stack {
+  width: 380px;
+  margin-left: 36%;
   margin-bottom: 50px;
   border-radius: 5px;
   box-shadow: 0 6px 11px rgba(235, 212, 0, 0.767);
-    background-color: #dfbe00;
+  background-color: #dfbe00;
 }
 table {
   background-color: #d4d4d42f;
@@ -355,9 +357,11 @@ th {
 
 @media only screen and (max-width: 768px) {
   .tech-stack {
-    border: 1px solid black;
+    width: 225px;
+    /* margin-left: 36%; */
+    border: 0px solid black;
     margin-bottom: 32px;
-    margin-left: 20%;
+    margin-left: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
