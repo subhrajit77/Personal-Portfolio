@@ -186,10 +186,10 @@ nav ul li {
   font-weight: 500;
   /* border: 1px solid black; */
   border-radius: 5px;
-  box-shadow: 0 6px 11px rgba(235, 74, 0, 0.767);
-  background-color: #030303b4;
+  box-shadow: 0 6px 11px rgba(235, 212, 0, 0.767);
+  background-color: #dfbe00;
   max-width: 240px;
-  color: rgba(243, 89, 0);
+  color: rgb(0, 0, 0);
   /* border: 2px solid rgb(0, 0, 0); */
   padding: 0px 0px;
   /*  */
@@ -234,6 +234,44 @@ nav ul li {
   font-size: 0.98em;
   font-family: 'Poppins', sans-serif;
 }
+
+/* tech stack */
+table {
+  margin: 1rem auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: rgba(255, 115, 0, 0.466);
+  font-size: 25px;
+  font-family: 'Poppy Sans', sans-serif;
+  font-weight: 500;
+  padding: 30px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  table {
+    overflow-x: auto; /* Allow horizontal scrolling */
+  }
+
+  th, td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+
+
+
+
 
 
 
