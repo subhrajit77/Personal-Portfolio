@@ -181,7 +181,8 @@ nav ul li {
 }
 .about-section h2{
   margin-top: 50px;
-  text-align: left;
+  margin-left: 40%;
+  text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 45px;
   font-weight: 500;
@@ -242,16 +243,18 @@ nav ul li {
   } */
   .about-section {
     text-align: center;
+    align-items: center;
     /* border: 2px solid rgb(0, 0, 0); */
     padding: 10px 20px;
     /*  */
   }
   .about-section h2{
     margin-top: 50px;
-    text-align: left;
+    text-align: center;
+    margin-left: 22%;
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
-    font-weight: 500;
+    font-weight: 400;
     /* border: 1px solid black; */
     border-radius: 5px;
     box-shadow: 0 6px 11px rgba(235, 212, 0, 0.767);
