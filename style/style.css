@@ -239,17 +239,27 @@ nav ul li {
 table {
   margin: 1rem auto;
   border-collapse: collapse;
-  width: 100%;
+  width: 95%;
 }
 
 th, td {
-  padding: 0.5rem;
+  /* margin: 0px 40px; */
+  padding: 1.7rem;
   text-align: center;
-  border: 1px solid #ddd;
+  border: 1px solid #070606;
 }
+td img{
+  width: 60px;
+  height: 60px;
+  border-radius: 10%;
+  padding: 10px 0px;
+  margin: 10px 35px;
+
+} 
+/* use for responsive also */
 
 th {
-  background-color: rgba(255, 115, 0, 0.466);
+  background-color: rgba(255, 208, 0, 0.979);
   font-size: 25px;
   font-family: 'Poppy Sans', sans-serif;
   font-weight: 500;
