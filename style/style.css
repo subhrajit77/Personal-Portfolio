@@ -316,6 +316,9 @@ nav ul li {
 /* tech stack */
 .tech-stack {
   margin-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 0 6px 11px rgba(235, 212, 0, 0.767);
+    background-color: #dfbe00;
 }
 table {
   background-color: #d4d4d42f;
