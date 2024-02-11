@@ -235,6 +235,80 @@ nav ul li {
   font-size: 0.98em;
   font-family: 'Poppins', sans-serif;
 }
+/* media queries for education */
+@media only screen and (max-width: 768px) {
+  /* .card {
+    flex: 0 0 85%;
+  } */
+  .about-section {
+    text-align: center;
+    /* border: 2px solid rgb(0, 0, 0); */
+    padding: 10px 20px;
+    /*  */
+  }
+  .about-section h2{
+    margin-top: 50px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: 0 6px 11px rgba(235, 212, 0, 0.767);
+    background-color: #dfbe00;
+    max-width: 240px;
+    color: rgb(0, 0, 0);
+    /* border: 2px solid rgb(0, 0, 0); */
+    padding: 0px 0px;
+    /*  */
+  }
+  
+  
+  .cards-container {
+    /* border: 2px solid rgb(255, 14, 14); */
+    margin-top: -130px;
+    display: flex;
+    margin-left: 20%;
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .card {
+    width: 380px;
+    height: 380px;
+    background-color: #f2f2f233;
+    border-radius: 5px;
+    padding: 20px 10px ;
+    box-shadow: 0 4px 11px rgba(235, 74, 0, 0.877);
+    text-align: center;
+  }
+  
+  .card img {
+    
+    width: 100%;
+    /* height: 50%; */
+    padding: 0px 0px;
+    margin-bottom: 25px;
+  }
+  
+  .card h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .card p {
+    font-size: 0.98em;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+
+
+
 
 /* tech stack */
 .tech-stack {
