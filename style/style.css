@@ -30,6 +30,7 @@ nav ul {
   justify-content: center;
   /* border: 2px solid rgb(0, 160, 8); */
   margin-left: 5.25rem;
+  margin-top:10px ;
   /* border: 2px solid rgb(14, 0, 0); */
   /* background-color: #dfbe0021; */
 }
@@ -84,7 +85,7 @@ nav ul li {
 }
 .left img{
   height: 39px;
-  margin-right: 375px;
+  margin-right: 355px;
   /* width: 150px; */
 }
 
@@ -358,7 +359,7 @@ th {
 @media only screen and (max-width: 768px) {
   .tech-stack {
     width: 225px;
-    /* margin-left: 36%; */
+    /* height: 0px; */
     border: 0px solid black;
     margin-bottom: 32px;
     margin-left: 30%;
@@ -366,6 +367,10 @@ th {
     align-items: center;
     justify-content: center;
     /* padding-bottom: 0px; */
+  }
+  .tech-stack h2{
+    font-size: 22px;
+    font-weight: 400px;
   }
   table {
     background-color: #d4d4d42f;
