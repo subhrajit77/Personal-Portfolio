@@ -444,8 +444,15 @@ th {
   align-items: center;
   
   margin-top:-20px ;
+  margin-bottom: -20px;
   margin-left: 20%;
   display: flex;
+  /* border: 2px solid black; */
+  /* height: 100px; */
+}
+#ecell{
+  display: flex;
+  margin-left: 125px;
   /* border: 2px solid black; */
   /* height: 100px; */
 }
