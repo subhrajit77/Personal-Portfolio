@@ -16,25 +16,27 @@ function isInViewport(element) {
     );
   }
   
-  // Function to handle animations when elements come into view
-  // Function to handle animations when elements come into view
-function handleAnimation(entries, observer) {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('animate');
-        observer.unobserve(entry.target);
-      }
-    });
-  }
-  
-  // Create intersection observer instance for timeline
-  const timelineObserver = new IntersectionObserver(handleAnimation, { threshold: 0.5 });
-  
-  // Observe the timeline items
-  const timelineItems = document.querySelectorAll('.timeline .animate');
-  timelineItems.forEach(item => {
-    timelineObserver.observe(item);
+  // JavaScript to add animation class to experience section elements
+  document.addEventListener('DOMContentLoaded', function() {
+    const expItems = document.querySelectorAll('.workexp li');
+
+    function fadeInItems() {
+      expItems.forEach((item, index) => {
+        setTimeout(() => {
+          const date = item.querySelector('.date');
+          const title = item.querySelector('.title');
+          const descr = item.querySelector('.descr');
+          if (date) date.style.opacity = 1;
+          if (title) title.style.opacity = 1;
+          if (descr) descr.style.opacity = 1;
+        }, index * 200); // Adjust timing as needed
+      });
+    }
+
+    fadeInItems();
   });
+
+  
 
 
 
